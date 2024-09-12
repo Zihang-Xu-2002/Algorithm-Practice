@@ -61,9 +61,17 @@ def getSecondaryInfluencerSum(g_nodes, g_from, g_to):
     return secondary_sum
 
 # 示例输入
-g_nodes = 4
-g_from = [1, 1, 2]
-g_to = [2, 3, 4]
+# g_nodes = 4
+# g_from = [1, 1, 2]
+# g_to = [2, 3, 4]
+
+# g_nodes = 6
+# g_from = [1, 1, 1, 2, 3]
+# g_to = [2, 3, 4, 5, 6]
+
+g_nodes = 5
+g_from = [1, 1, 2, 2]
+g_to = [2, 3, 4, 5]
 
 # 调用函数
 print(getSecondaryInfluencerSum(g_nodes, g_from, g_to))
